@@ -1,0 +1,154 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',  sans-serif  ;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* banner section */
+.banner-wrap {
+    background-image: url(./assets/img/xufyfcvqhmq36szytod7.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+/* ad section  */
+.ad{ 
+    background-image: radial-gradient( 54.97% 272.54% at 27.36% ragba(112, 145,234,0.98)0,ragba(0,0,0,0,0.98)100%);
+    color: #272525;
+    height: auto;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0px ;
+
+}
+
+.text1{
+    align-items: center;
+}
+
+.ad-text{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin: 0 15px;
+}
+
+.ad-text-detail{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin: 0 15pxz;
+}
+
+.ad-text-link{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 0 15px;
+}
+
+.ad-text-link >{
+    color: #201f1f;
+}
+/* nav section*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 32px;
+    font-size: 15px;
+}
+
+.nav-item{
+    padding: 10px;
+    font-size: 500;
+}
+
+.nav-item:hover {
+    background-color: #d5d3d2;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.logo {
+    padding: 0px 80px 0px 0px;
+    margin: 0px;
+    height: 56px;
+    width: 180px;
+}
+/* main section */
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* centered section */
+.centered-div {
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.centered-div-button {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+/* title-section */
+.title-section {
+         height: calc(100vh - 200px);
+}
+
+.title-section h1{
+    padding: 35px 35px 10px 35px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.title-section p{
+    font-size: 20px;
+}
+/* button section */
+.btn-dark{
+
+    background-color: rgba(23, 26, 32, 0.65);
+    color: #303030;
+    font-weight: 500;
+    font-style: 15px ;
+}
+
+.btn-light{
+    background-color: rgba(244, 244, 244, 0.8);
+    color: #a39e9e ;
+    font-weight: 500;
+    font-style: 15px ;
+}
+button{
+    padding: 0px;
+    border: none;
+    background: none;
+    background-color: #41424a;
+    width: 264px;
+    height: 40px;
+    padding: 7px 0px;
+    border-radius:10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
